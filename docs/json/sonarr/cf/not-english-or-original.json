@@ -1,0 +1,29 @@
+{
+  "trash_id": "not-english-or-original",
+  "trash_scores": {
+    "default": -10000
+  },
+  "trash_description": "Language: Prefer English but i'll take Original",
+  "name": "Language: Not Original or English",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Not Original",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": -2
+      }
+    },
+    {
+      "name": "Not English",
+      "implementation": "LanguageSpecification",
+      "negate": true,
+      "required": true,
+      "fields": {
+        "value": 4
+      }
+    }
+  ]
+}
