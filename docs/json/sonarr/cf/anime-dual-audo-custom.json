@@ -48,6 +48,15 @@
       "fields": {
         "value": 21
       }
+    },
+    {
+      "name": "English Language",
+      "implementation": "LanguageSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
     }
   ]
 }
