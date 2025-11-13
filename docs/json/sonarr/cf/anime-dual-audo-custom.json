@@ -47,7 +47,7 @@
       "required": false,
       "fields": {
         "value": 21
-      }
+      },
     {
       "name": "Not English Language",
       "implementation": "LanguageSpecification",
